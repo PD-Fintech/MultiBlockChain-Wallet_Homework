@@ -57,7 +57,7 @@ In order to run, you must ensure that:
 
     Confirmation on executed transaction
 
-![btc-test](screenshots/btctest_Transaction.png)
+![btc-test](screenshots/btctest_Transaction.PNG)
 
 ***ETH Transaction - Local PoA***
 
@@ -81,4 +81,4 @@ In order to run, you must ensure that:
     
 - Send a transaction from the pre-funded address within the wallet to another, then get the `TxStatus` from MyCrypto
     `
-![eth-test](screenshots/eth_Transaction.png)
+![eth-test](screenshots/eth_Transaction.PNG)
