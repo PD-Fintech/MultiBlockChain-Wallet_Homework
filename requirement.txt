@@ -1,0 +1,9 @@
+Begin by opening a fresh terminal. Windows users must open their terminal as administator as follows:
+Input C:\Program Files\Git\bin\bash.exe directly into the system search bar and launch the program as Administrator from the resulting menu.
+With your terminal open as indicated for your operating system, cd into your local github repo folder 'Mulitblockchain-wallet' and run the following code:
+ git clone https://github.com/dan-da/hd-wallet-derive
+  cd hd-wallet-derive
+  curl https://getcomposer.org/installer -o installer.php
+  php installer.php
+  php composer.phar install
+Now You should now have a folder called hd-wallet-derive containing the PHP library!
