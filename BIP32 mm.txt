@@ -1,0 +1,51 @@
+BIP39 MNEMONIC
+betray chicken pistol half scorpion diary action master oil such shoe swallow suffer project custom
+
+BIP39 SEED 2ce78299219a68d963e703b45fb2b77365d2b48ea1ae4de2c77bd3a835dcb368117c9c715e9984579ac273e2a76e39736a71096f3955a7dc203f7abfcacb1464
+
+Coin = BTC-Bitcoin
+BIP32 Root Key
+xprv9s21ZrQH143K2uoirufh1i7eHccRqcR9JPcMfYUesQ7cYeyL1bVh9Az3C4WuPK5PeZpkpTFxm1DvyCDVk1x3Pc2d2Epx3e35Pceym3sc9km
+BIP32 Derivation Path
+m/0
+BIP32 Extended Private Key
+xprv9uSRFrb2gpuGc3s4fukwZmJVGLVgDFqrGAHD7vMYWa2dVZsBprx1x3y4zEeR7RMG9X51PrNseXZe4WREu6AYdiAF5KPw7zPzLBXmVNdcUh4
+BIP32 Extended Public Key
+xpub68RmfN7vXCTZpXwXmwHwvuFDpNLAciZhdPCovJmA4uZcNNCLNQGGVrHYqV2KzYZr6xVdevrN4y8ujYFp1NPcEJBiFemwURXd7HGhvQ2DVDL
+
+Coin = ETH-Ethereum
+BIP32 Root Key
+xprv9s21ZrQH143K2uoirufh1i7eHccRqcR9JPcMfYUesQ7cYeyL1bVh9Az3C4WuPK5PeZpkpTFxm1DvyCDVk1x3Pc2d2Epx3e35Pceym3sc9km
+BIP32 Derivation Path
+m/0
+BIP32 Extended Private Key
+xprv9uSRFrb2gpuGc3s4fukwZmJVGLVgDFqrGAHD7vMYWa2dVZsBprx1x3y4zEeR7RMG9X51PrNseXZe4WREu6AYdiAF5KPw7zPzLBXmVNdcUh4
+BIP32 Extended Public Key
+xpub68RmfN7vXCTZpXwXmwHwvuFDpNLAciZhdPCovJmA4uZcNNCLNQGGVrHYqV2KzYZr6xVdevrN4y8ujYFp1NPcEJBiFemwURXd7HGhvQ2DVDL
+
+Coin = BTC -Bitcoin Testnet
+BI32 Root Key
+tprv8ZgxMBicQKsPdj3FXUXCBMjdbk2e58T9dwXUXxu7MNc6LFiQzxqSevMV7EgZPgTi21MXpYsivMojS3mEsEHzCfJDYt3Fhzm8JiQQCk2Ab3g
+BIP32 Derivation Path
+m/0
+BIP32 Extended Private Key
+tprv8ZgxMBicQKsPdj3FXUXCBMjdbk2e58T9dwXUXxu7MNc6LFiQzxqSevMV7EgZPgTi21MXpYsivMojS3mEsEHzCfJDYt3Fhzm8JiQQCk2Ab3g
+BIP32 Extended Public Key
+tpubD8oQBbwcEUR26L8PE8H38pab9VRpc74mB1o7GrpJQpKW7es3Sd7MeHxP5X77X3X5ts2YGWNEc4xxRikRQEEr7je1KFXF9xBrhEs7gLGKveC
+
+Address-
+n37EzV96Zbh9VrJATBsftJx4GsDheJ9Lb2(Public Key:0307e4528874a51821f8c0f94cddb17e3bb5192294cfdf18ba2aaeed1de9f7de09)
+PrivateKey-cURHahiknDCQ74uHxr5PTVzvuvcd6NDpapUoWF6DvpF14XY6Zorb
+mviPTU8ewY5wwxZUqtCoCGBsxnx7kWQuZF(Public Key:036db6c14e21afdc5e4f508a80f25fbc4a8e2ff94dc94f64640e51d74449f473dd)
+PrivateKey-cMdGvnJ2Cgvc9wXFr6ffojaWYonNMRghfdkzFDStx7QuooBUUdWX
+n3LUACXpQwtkCiKNBEeASurVxUTd1nmgAh(Public Key:cMdGvnJ2Cgvc9wXFr6ffojaWYonNMRghfdkzFDStx7QuooBUUdWX)
+Private Key:cUiW7jWG2i6rT4wM4r42NB3n46pP4ib1wy9GZTSoWkiPsBY36t54
+
+
+subprocess.check_output('php hd-wallet-derive/hd-wallet-derive.php -g --mnemonic="betray chicken pistol half scorpion diary action master oil such shoe swallow suffer project custom" --coin=btc --numderive=3 --cols=address,index,path,address,privkey,pubkey,pubkeyhash,xprv,xpub --format=json',shell=True)
+./hd-wallet-derive.php -g --coin=ETH --mnemonic="betray chicken pistol half scorpion diary action master oil such shoe swallow suffer project custom" -numderive=3 --cols=address,index,path,privkey,pubkey,pubkeyhash,xprv,xpub --format=jsonpretty
+./hd-wallet-derive.php -g --coin=BTC-test --mnemonic="betray chicken pistol half scorpion diary action master oil such shoe swallow suffer project custom" --numderive=3 --cols=address,index,path,privkey,pubkey,pubkeyhash,xprv,xpub --format=jsonpretty
+
+0xbd48faedd1665faf4e3e4d65e8f367adf25bf5e516c8a3fcd40ca8caffaf0717
+0x5509d6f767e497b4a662604ef096101d12073e152b46653c000bb8553601ce81
+4000/0.0000000000000004 
